@@ -4,7 +4,7 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "start": "nodemon",
+    "start": "nodemon src/index.js --exec babel-node",
     "lint": "eslint --fix src/"
   },
   "repository": {
@@ -18,10 +18,17 @@
   },
   "homepage": "https://github.com/oamaok/ezpp-stats#readme",
   "dependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "googleapis": "^33.0.0",
     "koa": "^2.5.3",
     "koa-router": "^7.4.0",
     "node-fetch": "^2.2.0",
-    "nodemon": "^1.18.4"
+    "nodemon": "^1.18.4",
+    "react": "^16.5.1",
+    "react-dom": "^16.5.1"
   },
   "devDependencies": {
     "eslint": "^5.6.0",
