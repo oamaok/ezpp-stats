@@ -2,10 +2,10 @@
   "name": "ezpp-stats",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.js",
+  "main": "src/index.jsx",
   "scripts": {
-    "start": "nodemon src/index.js --exec babel-node",
-    "lint": "eslint --fix src/"
+    "start": "nodemon src/index.jsx --exec babel-node",
+    "lint": "eslint --fix --ext=.js,.jsx src/"
   },
   "repository": {
     "type": "git",
